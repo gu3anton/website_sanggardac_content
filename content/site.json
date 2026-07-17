@@ -281,7 +281,7 @@
       "caption": "Komunitas DAC",
       "variant": "gallery-d",
       "mark": "DAC",
-      "imageUrl": "",
+      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275822228-jadwal.jpg",
       "alt": "Ilustrasi konsep komunitas Sanggar DAC",
       "active": true
     }
@@ -294,6 +294,6 @@
   "settings": {
     "scheduleIsExample": false,
     "galleryIsPlaceholder": true,
-    "updatedAt": "2026-07-17T08:09:44.019Z"
+    "updatedAt": "2026-07-17T08:10:27.335Z"
   }
 }
