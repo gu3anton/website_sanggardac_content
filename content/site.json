@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "name": "Sanggar DAC",
+    "shortName": "DAC",
+    "tagline": "Move • Grow • Together",
+    "locationShort": "Cluster Sriwijaya Acropolis, Karadenan, Cibinong",
+    "copyrightYear": "2026"
+  },
+  "copy": {
+    "navigation": {
+      "about": "Tentang",
+      "classes": "Kelas & Jadwal",
+      "gallery": "Galeri",
+      "cta": "Coba kelas"
+    },
+    "hero": {
+      "eyebrow": "Komunitas olahraga wanita • Cibinong",
+      "headlinePrefix": "Bergerak lebih",
+      "headlineAccent": "kuat, bersama.",
+      "lead": "Ruang olahraga yang hangat untuk perempuan dari berbagai usia—mulai dari cardio yang seru sampai latihan pembentukan otot yang terarah.",
+      "primaryCta": "Daftar kelas percobaan",
+      "secondaryCta": "Lihat semua kelas",
+      "scrollCta": "Kenali kami"
+    },
+    "profile": {
+      "sectionLabel": "01 — Tentang kami",
+      "titlePrefix": "Bukan sekadar tempat latihan.",
+      "titleAccent": "Ini ruang untuk bertumbuh."
+    },
+    "classes": {
+      "sectionLabel": "02 — Pilih gerakmu",
+      "titlePrefix": "Kelas untuk setiap",
+      "titleAccent": "ritme.",
+      "intro": "Gabungkan latihan cardio, kekuatan, mobilitas, dan koordinasi sesuai tujuan kebugaranmu.",
+      "extraLabel": "Juga tersedia"
+    },
+    "schedule": {
+      "label": "Jadwal mingguan",
+      "title": "Temukan waktu yang pas.",
+      "allDays": "Semua",
+      "demoTitle": "Jadwal contoh",
+      "demoText": "perlu dikonfirmasi admin sebelum dipublikasikan."
+    },
+    "gallery": {
+      "sectionLabel": "03 — Cerita dalam gerak",
+      "titlePrefix": "Kebersamaan yang",
+      "titleAccent": "terasa.",
+      "intro": "Area galeri ini siap diganti dengan foto kegiatan asli Sanggar DAC.",
+      "placeholderLabel": "Placeholder galeri",
+      "placeholderText": "Visual berikut adalah ilustrasi konsep, bukan dokumentasi kegiatan asli.",
+      "placeholderDetail": "Placeholder — ganti dengan foto asli kegiatan Sanggar DAC."
+    },
+    "registration": {
+      "sectionLabel": "Mulai dari satu sesi",
+      "title": "Siap mencoba kelas pertamamu?",
+      "intro": "Pilih kelas yang menarik. Pesan akan disiapkan otomatis dan kamu bisa mengonfirmasi jadwal langsung dengan admin melalui WhatsApp.",
+      "contactLabel": "WhatsApp Admin",
+      "nameLabel": "Nama kamu",
+      "namePlaceholder": "Contoh: Rina",
+      "classLabel": "Kelas yang ingin dicoba",
+      "noteLabel": "Catatan atau waktu pilihan",
+      "notePlaceholder": "Contoh: Saya lebih nyaman latihan pagi",
+      "submitLabel": "Lanjutkan via WhatsApp",
+      "privacyText": "Form ini tidak menyimpan data. Pesan baru dikirim setelah kamu menekan tombol kirim di WhatsApp."
+    },
+    "footer": {
+      "slogan": "Let's get stronger together!",
+      "adminLabel": "Admin"
+    }
+  },
+  "profile": {
+    "foundedDate": "2 Juni 2024",
+    "memberCount": "100+",
+    "memberLabel": "member aktif",
+    "classCount": "9",
+    "classLabel": "jenis kelas",
+    "foundedYear": "2024",
+    "foundedLabel": "mulai bertumbuh",
+    "paragraphs": [
+      "Sanggar DAC dibentuk pada 2 Juni 2024 dari keinginan sederhana: mengajak ibu-ibu untuk bergerak, hidup sehat, dan memiliki komunitas yang positif.",
+      "Kini, lebih dari 100 member berlatih bersama untuk menguatkan otot, membangun kebugaran, dan merasa lebih percaya diri—tanpa tuntutan harus sudah mahir."
+    ],
+    "addressLine1": "Acropolis Cluster Sriwijaya Blok NJ 14 A",
+    "addressLine2": "Karadenan, Cibinong, Kabupaten Bogor",
+    "values": [
+      "Ramah pemula",
+      "Beragam usia",
+      "Latihan terarah",
+      "Komunitas positif"
+    ]
+  },
+  "classes": [
+    {
+      "id": "aerobic",
+      "name": "Aerobic",
+      "tag": "Cardio",
+      "level": "Semua level",
+      "description": "Gerak ritmis penuh energi untuk melatih stamina dan membuat tubuh tetap aktif.",
+      "tone": "coral",
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "functional-training",
+      "name": "Functional Training",
+      "tag": "Strength",
+      "level": "Bisa dimodifikasi",
+      "description": "Latihan fungsional untuk kekuatan otot, keseimbangan, dan aktivitas harian.",
+      "tone": "mint",
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "trx",
+      "name": "TRX",
+      "tag": "Full body",
+      "level": "Terarah",
+      "description": "Suspension training yang menantang otot inti dengan intensitas yang dapat disesuaikan.",
+      "tone": "navy",
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "zumba",
+      "name": "Zumba",
+      "tag": "Dance cardio",
+      "level": "Semua level",
+      "description": "Kombinasi musik, gerak, dan suasana seru untuk sesi olahraga yang terasa ringan.",
+      "tone": "yellow",
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "poundfit",
+      "name": "Poundfit",
+      "tag": "Rhythm",
+      "level": "Energik",
+      "description": "Latihan seluruh tubuh berbasis ritme menggunakan ripstix dan gerakan dinamis.",
+      "tone": "lilac",
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "strong-nation",
+      "name": "Strong Nation",
+      "tag": "HIIT",
+      "level": "Progresif",
+      "description": "Gerakan intens tersinkron musik untuk membangun daya tahan dan kekuatan.",
+      "tone": "blue",
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "kegel-exercise",
+      "name": "Kegel Exercise",
+      "tag": "Mobility",
+      "level": "Terarah",
+      "description": "Kelas tambahan Sanggar DAC.",
+      "tone": "mint",
+      "featured": false,
+      "active": true
+    },
+    {
+      "id": "aeroboxing",
+      "name": "Aeroboxing",
+      "tag": "Cardio",
+      "level": "Energik",
+      "description": "Kelas tambahan Sanggar DAC.",
+      "tone": "coral",
+      "featured": false,
+      "active": true
+    },
+    {
+      "id": "linedance",
+      "name": "Linedance",
+      "tag": "Dance",
+      "level": "Semua level",
+      "description": "Kelas tambahan Sanggar DAC.",
+      "tone": "lilac",
+      "featured": false,
+      "active": true
+    }
+  ],
+  "schedule": [
+    {
+      "id": "schedule-sen-aerobic",
+      "dayCode": "Sen",
+      "dayName": "Senin",
+      "time": "08.00",
+      "classId": "aerobic",
+      "coach": "Coach DAC",
+      "intensity": "Sedang",
+      "active": true
+    },
+    {
+      "id": "schedule-sel-functional",
+      "dayCode": "Sel",
+      "dayName": "Selasa",
+      "time": "08.00",
+      "classId": "functional-training",
+      "coach": "Coach DAC",
+      "intensity": "Bertahap",
+      "active": true
+    },
+    {
+      "id": "schedule-rab-zumba",
+      "dayCode": "Rab",
+      "dayName": "Rabu",
+      "time": "08.00",
+      "classId": "zumba",
+      "coach": "Coach DAC",
+      "intensity": "Sedang",
+      "active": true
+    },
+    {
+      "id": "schedule-kam-trx",
+      "dayCode": "Kam",
+      "dayName": "Kamis",
+      "time": "08.00",
+      "classId": "trx",
+      "coach": "Coach DAC",
+      "intensity": "Terarah",
+      "active": true
+    },
+    {
+      "id": "schedule-jum-poundfit",
+      "dayCode": "Jum",
+      "dayName": "Jumat",
+      "time": "08.00",
+      "classId": "poundfit",
+      "coach": "Coach DAC",
+      "intensity": "Energik",
+      "active": true
+    },
+    {
+      "id": "schedule-sab-strong",
+      "dayCode": "Sab",
+      "dayName": "Sabtu",
+      "time": "07.30",
+      "classId": "strong-nation",
+      "coach": "Coach DAC",
+      "intensity": "Tinggi",
+      "active": true
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gallery-move",
+      "title": "Energi di setiap gerakan",
+      "caption": "Kelas Aerobic",
+      "variant": "gallery-a",
+      "mark": "MOVE",
+      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784274404426-dac3.jpg",
+      "alt": "Ilustrasi konsep kelas Aerobic",
+      "active": true
+    },
+    {
+      "id": "gallery-grow",
+      "title": "Kuat bersama",
+      "caption": "Functional Training",
+      "variant": "gallery-b",
+      "mark": "GROW",
+      "imageUrl": "",
+      "alt": "Ilustrasi konsep Functional Training",
+      "active": true
+    },
+    {
+      "id": "gallery-vibe",
+      "title": "Ritme yang menyatukan",
+      "caption": "Zumba & Poundfit",
+      "variant": "gallery-c",
+      "mark": "VIBE",
+      "imageUrl": "",
+      "alt": "Ilustrasi konsep kelas ritmik",
+      "active": true
+    },
+    {
+      "id": "gallery-community",
+      "title": "Ruang aman untuk bertumbuh",
+      "caption": "Komunitas DAC",
+      "variant": "gallery-d",
+      "mark": "DAC",
+      "imageUrl": "",
+      "alt": "Ilustrasi konsep komunitas Sanggar DAC",
+      "active": true
+    }
+  ],
+  "registration": {
+    "whatsappDisplay": "0813-3232-1620",
+    "whatsappInternational": "6281332321620",
+    "messageTemplate": "Halo Admin Sanggar DAC, saya {name}. Saya ingin mencoba kelas {class}.{note}\n\nMohon info jadwal dan cara pendaftarannya. Terima kasih."
+  },
+  "settings": {
+    "scheduleIsExample": false,
+    "galleryIsPlaceholder": true,
+    "updatedAt": "2026-07-17T07:56:08.702Z"
+  }
+}
