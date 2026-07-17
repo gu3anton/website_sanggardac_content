@@ -271,7 +271,7 @@
       "caption": "Zumba & Poundfit",
       "variant": "gallery-c",
       "mark": "VIBE",
-      "imageUrl": "",
+      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275779139-dac2.jpg",
       "alt": "Ilustrasi konsep kelas ritmik",
       "active": true
     },
@@ -294,6 +294,6 @@
   "settings": {
     "scheduleIsExample": false,
     "galleryIsPlaceholder": true,
-    "updatedAt": "2026-07-17T08:09:11.638Z"
+    "updatedAt": "2026-07-17T08:09:44.019Z"
   }
 }
