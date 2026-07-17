@@ -89,8 +89,8 @@
       "Latihan terarah",
       "Komunitas positif"
     ],
-    "latitude": "",
-    "longitude": ""
+    "latitude": "-6.493945026506874",
+    "longitude": "106.80047468323474"
   },
   "classes": [
     {
@@ -296,6 +296,6 @@
   "settings": {
     "scheduleIsExample": false,
     "galleryIsPlaceholder": false,
-    "updatedAt": "2026-07-17T08:39:12.000Z"
+    "updatedAt": "2026-07-17T09:13:53.638Z"
   }
 }
