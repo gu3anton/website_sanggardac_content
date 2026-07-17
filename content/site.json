@@ -261,7 +261,7 @@
       "caption": "Functional Training",
       "variant": "gallery-b",
       "mark": "GROW",
-      "imageUrl": "",
+      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275743657-dac1.jpg",
       "alt": "Ilustrasi konsep Functional Training",
       "active": true
     },
@@ -294,6 +294,6 @@
   "settings": {
     "scheduleIsExample": false,
     "galleryIsPlaceholder": true,
-    "updatedAt": "2026-07-17T07:56:08.702Z"
+    "updatedAt": "2026-07-17T08:09:11.638Z"
   }
 }
