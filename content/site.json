@@ -46,10 +46,10 @@
       "sectionLabel": "03 — Cerita dalam gerak",
       "titlePrefix": "Kebersamaan yang",
       "titleAccent": "terasa.",
-      "intro": "Area galeri ini siap diganti dengan foto kegiatan asli Sanggar DAC.",
+      "intro": "Dokumentasi kegiatan dan kebersamaan di Sanggar DAC.",
       "placeholderLabel": "Placeholder galeri",
-      "placeholderText": "Visual berikut adalah ilustrasi konsep, bukan dokumentasi kegiatan asli.",
-      "placeholderDetail": "Placeholder — ganti dengan foto asli kegiatan Sanggar DAC."
+      "placeholderText": "",
+      "placeholderDetail": "Visual placeholder."
     },
     "registration": {
       "sectionLabel": "Mulai dari satu sesi",
@@ -252,7 +252,7 @@
       "variant": "gallery-a",
       "mark": "MOVE",
       "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784274404426-dac3.jpg",
-      "alt": "Ilustrasi konsep kelas Aerobic",
+      "alt": "Foto bersama anggota Sanggar DAC di studio",
       "active": true
     },
     {
@@ -262,7 +262,7 @@
       "variant": "gallery-b",
       "mark": "GROW",
       "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275743657-dac1.jpg",
-      "alt": "Ilustrasi konsep Functional Training",
+      "alt": "Foto kegiatan Functional Training Sanggar DAC",
       "active": true
     },
     {
@@ -272,17 +272,17 @@
       "variant": "gallery-c",
       "mark": "VIBE",
       "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275779139-dac2.jpg",
-      "alt": "Ilustrasi konsep kelas ritmik",
+      "alt": "Foto kegiatan Sanggar DAC untuk galeri Ritme yang menyatukan",
       "active": true
     },
     {
       "id": "gallery-community",
-      "title": "Ruang aman untuk bertumbuh",
-      "caption": "Komunitas DAC",
+      "title": "Jadwal latihan DAC Studio",
+      "caption": "Functional Training & TRX",
       "variant": "gallery-d",
       "mark": "DAC",
       "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275822228-jadwal.jpg",
-      "alt": "Ilustrasi konsep komunitas Sanggar DAC",
+      "alt": "Poster jadwal Functional Training dan TRX di DAC Studio",
       "active": true
     }
   ],
@@ -293,7 +293,7 @@
   },
   "settings": {
     "scheduleIsExample": false,
-    "galleryIsPlaceholder": true,
-    "updatedAt": "2026-07-17T08:10:27.335Z"
+    "galleryIsPlaceholder": false,
+    "updatedAt": "2026-07-17T08:26:39.000Z"
   }
 }
