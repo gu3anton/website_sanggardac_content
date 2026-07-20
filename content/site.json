@@ -275,7 +275,7 @@
       "mark": "VIBE",
       "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275779139-dac2.jpg",
       "alt": "Foto kegiatan Sanggar DAC untuk galeri Ritme yang menyatukan",
-      "active": true
+      "active": false
     },
     {
       "id": "gallery-community",
@@ -306,6 +306,6 @@
   "settings": {
     "scheduleIsExample": false,
     "galleryIsPlaceholder": true,
-    "updatedAt": "2026-07-20T03:59:35.823Z"
+    "updatedAt": "2026-07-20T04:00:02.311Z"
   }
 }
