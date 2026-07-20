@@ -291,7 +291,7 @@
       "id": "gallery-whatsapp-image-2026-07-20-at-9-51-50-am-jpeg-mrsp0k3o",
       "title": "HUT Kemerdekaan RI",
       "caption": "Kegiatan Sanggar DAC",
-      "variant": "gallery-b",
+      "variant": "gallery-a",
       "mark": "DAC",
       "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784519802564-whatsapp-image-2026-07-20-at-9-51-50-am.jpeg",
       "alt": "Lomba Seruuu...",
@@ -306,6 +306,6 @@
   "settings": {
     "scheduleIsExample": false,
     "galleryIsPlaceholder": true,
-    "updatedAt": "2026-07-20T03:58:59.381Z"
+    "updatedAt": "2026-07-20T03:59:35.823Z"
   }
 }
