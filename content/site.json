@@ -286,6 +286,16 @@
       "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275822228-jadwal.jpg",
       "alt": "Poster jadwal Functional Training dan TRX di DAC Studio",
       "active": true
+    },
+    {
+      "id": "gallery-whatsapp-image-2026-07-20-at-9-51-50-am-jpeg-mrsp0k3o",
+      "title": "HUT Kemerdekaan RI",
+      "caption": "Kegiatan Sanggar DAC",
+      "variant": "gallery-b",
+      "mark": "DAC",
+      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784519802564-whatsapp-image-2026-07-20-at-9-51-50-am.jpeg",
+      "alt": "Lomba Seruuu...",
+      "active": true
     }
   ],
   "registration": {
@@ -295,7 +305,7 @@
   },
   "settings": {
     "scheduleIsExample": false,
-    "galleryIsPlaceholder": false,
-    "updatedAt": "2026-07-20T03:55:48.744Z"
+    "galleryIsPlaceholder": true,
+    "updatedAt": "2026-07-20T03:58:59.381Z"
   }
 }
