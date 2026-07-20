@@ -281,7 +281,7 @@
       "id": "gallery-community",
       "title": "Jadwal latihan DAC Studio",
       "caption": "Functional Training & TRX",
-      "variant": "gallery-d",
+      "variant": "gallery-a",
       "mark": "DAC",
       "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275822228-jadwal.jpg",
       "alt": "Poster jadwal Functional Training dan TRX di DAC Studio",
@@ -296,6 +296,6 @@
   "settings": {
     "scheduleIsExample": false,
     "galleryIsPlaceholder": false,
-    "updatedAt": "2026-07-17T09:20:32.334Z"
+    "updatedAt": "2026-07-20T03:55:48.744Z"
   }
 }
