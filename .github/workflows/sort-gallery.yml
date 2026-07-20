@@ -1,0 +1,78 @@
+name: Sort gallery newest first
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sort-gallery:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sort gallery DESC
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = 'content/site.json';
+          const content = JSON.parse(fs.readFileSync(path, 'utf8'));
+          const minTimestamp = Date.UTC(2020, 0, 1);
+          const maxTimestamp = Date.UTC(2100, 0, 1);
+
+          function timestamp(item) {
+            const explicit = Date.parse(String(item?.createdAt ?? ''));
+            if (Number.isFinite(explicit)) return explicit;
+
+            const filename = String(item?.imageUrl ?? '').match(/(?:^|\/)(\d{13})-/)?.[1];
+            if (filename) return Number(filename);
+
+            const suffix = String(item?.id ?? '').split('-').at(-1);
+            if (/^[0-9a-z]{8,}$/i.test(suffix)) {
+              const generated = Number.parseInt(suffix, 36);
+              if (generated >= minTimestamp && generated <= maxTimestamp) return generated;
+            }
+
+            return 0;
+          }
+
+          const before = JSON.stringify(content.gallery ?? []);
+          content.gallery = (content.gallery ?? [])
+            .map((item, index) => {
+              const value = timestamp(item);
+              return {
+                item: value && !item.createdAt
+                  ? { ...item, createdAt: new Date(value).toISOString() }
+                  : item,
+                index,
+                value,
+              };
+            })
+            .sort((a, b) => b.value - a.value || b.index - a.index)
+            .map(({ item }) => item);
+
+          if (JSON.stringify(content.gallery) !== before) {
+            content.settings = content.settings ?? {};
+            content.settings.updatedAt = new Date().toISOString();
+            fs.writeFileSync(path, `${JSON.stringify(content, null, 2)}\n`);
+          }
+          NODE
+
+      - name: Commit sorted content
+        shell: bash
+        run: |
+          if git diff --quiet -- content/site.json; then
+            echo "Gallery already sorted."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/site.json
+          git commit -m "Sort gallery newest first"
+          git push
