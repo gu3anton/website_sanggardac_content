@@ -248,34 +248,15 @@
   ],
   "gallery": [
     {
-      "id": "gallery-move",
-      "title": "Energi di setiap gerakan",
-      "caption": "Kelas Aerobic",
+      "id": "gallery-whatsapp-image-2026-07-20-at-9-51-50-am-jpeg-mrsp0k3o",
+      "title": "HUT Kemerdekaan RI",
+      "caption": "Kegiatan Sanggar DAC",
       "variant": "gallery-a",
-      "mark": "MOVE",
-      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784274404426-dac3.jpg",
-      "alt": "Foto bersama anggota Sanggar DAC di studio",
-      "active": true
-    },
-    {
-      "id": "gallery-grow",
-      "title": "Kuat bersama",
-      "caption": "Functional Training",
-      "variant": "gallery-b",
-      "mark": "GROW",
-      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275743657-dac1.jpg",
-      "alt": "Foto kegiatan Functional Training Sanggar DAC",
-      "active": true
-    },
-    {
-      "id": "gallery-vibe",
-      "title": "Ritme yang menyatukan",
-      "caption": "Zumba & Poundfit",
-      "variant": "gallery-c",
-      "mark": "VIBE",
-      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275779139-dac2.jpg",
-      "alt": "Foto kegiatan Sanggar DAC untuk galeri Ritme yang menyatukan",
-      "active": false
+      "mark": "DAC",
+      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784519802564-whatsapp-image-2026-07-20-at-9-51-50-am.jpeg",
+      "alt": "Lomba Seruuu...",
+      "active": true,
+      "createdAt": "2026-07-20T03:56:42.564Z"
     },
     {
       "id": "gallery-community",
@@ -285,17 +266,41 @@
       "mark": "DAC",
       "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275822228-jadwal.jpg",
       "alt": "Poster jadwal Functional Training dan TRX di DAC Studio",
-      "active": true
+      "active": true,
+      "createdAt": "2026-07-17T08:10:22.228Z"
     },
     {
-      "id": "gallery-whatsapp-image-2026-07-20-at-9-51-50-am-jpeg-mrsp0k3o",
-      "title": "HUT Kemerdekaan RI",
-      "caption": "Kegiatan Sanggar DAC",
+      "id": "gallery-vibe",
+      "title": "Ritme yang menyatukan",
+      "caption": "Zumba & Poundfit",
+      "variant": "gallery-c",
+      "mark": "VIBE",
+      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275779139-dac2.jpg",
+      "alt": "Foto kegiatan Sanggar DAC untuk galeri Ritme yang menyatukan",
+      "active": false,
+      "createdAt": "2026-07-17T08:09:39.139Z"
+    },
+    {
+      "id": "gallery-grow",
+      "title": "Kuat bersama",
+      "caption": "Functional Training",
+      "variant": "gallery-b",
+      "mark": "GROW",
+      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784275743657-dac1.jpg",
+      "alt": "Foto kegiatan Functional Training Sanggar DAC",
+      "active": true,
+      "createdAt": "2026-07-17T08:09:03.657Z"
+    },
+    {
+      "id": "gallery-move",
+      "title": "Energi di setiap gerakan",
+      "caption": "Kelas Aerobic",
       "variant": "gallery-a",
-      "mark": "DAC",
-      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784519802564-whatsapp-image-2026-07-20-at-9-51-50-am.jpeg",
-      "alt": "Lomba Seruuu...",
-      "active": true
+      "mark": "MOVE",
+      "imageUrl": "https://raw.githubusercontent.com/gu3anton/website_sanggardac_content/main/public/gallery/1784274404426-dac3.jpg",
+      "alt": "Foto bersama anggota Sanggar DAC di studio",
+      "active": true,
+      "createdAt": "2026-07-17T07:46:44.426Z"
     }
   ],
   "registration": {
@@ -306,6 +311,6 @@
   "settings": {
     "scheduleIsExample": false,
     "galleryIsPlaceholder": true,
-    "updatedAt": "2026-07-20T04:00:02.311Z"
+    "updatedAt": "2026-07-20T06:53:11.405Z"
   }
 }
