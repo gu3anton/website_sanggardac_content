@@ -1,4 +1,4 @@
-name: Sort gallery newest first
+name: Normalize gallery content
 
 on:
   push:
@@ -9,20 +9,21 @@ permissions:
   contents: write
 
 jobs:
-  sort-gallery:
+  normalize-gallery:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Sort gallery DESC
+      - name: Sort gallery DESC and finalize status
         shell: bash
         run: |
           node <<'NODE'
           const fs = require('fs');
           const path = 'content/site.json';
           const content = JSON.parse(fs.readFileSync(path, 'utf8'));
+          const before = JSON.stringify(content);
           const minTimestamp = Date.UTC(2020, 0, 1);
           const maxTimestamp = Date.UTC(2100, 0, 1);
 
@@ -42,7 +43,6 @@ jobs:
             return 0;
           }
 
-          const before = JSON.stringify(content.gallery ?? []);
           content.gallery = (content.gallery ?? [])
             .map((item, index) => {
               const value = timestamp(item);
@@ -57,22 +57,27 @@ jobs:
             .sort((a, b) => b.value - a.value || b.index - a.index)
             .map(({ item }) => item);
 
-          if (JSON.stringify(content.gallery) !== before) {
-            content.settings = content.settings ?? {};
+          content.settings = content.settings ?? {};
+          const activeGallery = content.gallery.filter((item) => item.active);
+          if (activeGallery.length > 0 && activeGallery.every((item) => String(item.imageUrl ?? '').trim())) {
+            content.settings.galleryIsPlaceholder = false;
+          }
+
+          if (JSON.stringify(content) !== before) {
             content.settings.updatedAt = new Date().toISOString();
             fs.writeFileSync(path, `${JSON.stringify(content, null, 2)}\n`);
           }
           NODE
 
-      - name: Commit sorted content
+      - name: Commit normalized content
         shell: bash
         run: |
           if git diff --quiet -- content/site.json; then
-            echo "Gallery already sorted."
+            echo "Gallery content already normalized."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/site.json
-          git commit -m "Sort gallery newest first"
+          git commit -m "Normalize gallery content"
           git push
