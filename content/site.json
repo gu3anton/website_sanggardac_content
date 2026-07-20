@@ -310,7 +310,7 @@
   },
   "settings": {
     "scheduleIsExample": false,
-    "galleryIsPlaceholder": true,
-    "updatedAt": "2026-07-20T06:53:11.405Z"
+    "galleryIsPlaceholder": false,
+    "updatedAt": "2026-07-20T07:24:24.529Z"
   }
 }
